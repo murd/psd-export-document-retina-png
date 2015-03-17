@@ -1,7 +1,7 @@
 // Murdoch Carpenter
 // http://murdochcarpenter.com/blog/
 // Tested in Photoshop CC (2014)
-// V1.0
+// V1.1
 
 var doc = app.activeDocument;
 var docName = doc.name.replace(/\.[^\.]+$/, '');
