@@ -22,6 +22,7 @@ function exportScaledPNG() {
     if(pngFile.exists) pngFile.remove();
     // save the PNG
     pngSaveOptions = new PNGSaveOptions();
+    pngSaveOptions.compression = 9;
     doc.saveAs(pngFile, pngSaveOptions, true, Extension.LOWERCASE)
     // undo the history and purge
     doc.activeHistoryState = doc.historyStates[doc.historyStates.length-2];  
